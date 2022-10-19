@@ -79,16 +79,16 @@
 
     <EditText
         android:id="@+id/edtNumFilhos"
-        android:inputType="numberDecimal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/rgSexo"
-        android:hint="Salário Bruto"
-        android:textSize="20sp"
-        android:layout_marginTop="20dp"
         android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
         android:layout_marginRight="30dp"
-        android:textColor="@color/black"/>
+        android:hint="Número de Filhos"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/btnCalcular"
@@ -118,15 +118,15 @@
 
     <TextView
         android:id="@+id/txtNomeRes"
-        android:layout_below="@id/txtRes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:text="Nome:"
-        android:textColor="@color/black"
+        android:layout_below="@id/txtRes"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp"/>
+        android:text="Nome:"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/txtInss"
